@@ -1,0 +1,30 @@
+/* основной цвет текста #212121 */
+/* второстепенный цвет текста #757575 */
+/* цвет акцент, цвет Web логотипа  #2196F3 */
+/* цвет заголовка ГЕРОЯ, цвет адресса в футере и Studio в лого #000000 */
+
+:root {
+}
+.page {
+  color: #212121;
+}
+.list {
+  list-style: none;
+}
+span.color-logo {
+  color: #2196f3;
+}
+span.color-studio {
+  color: #000000;
+}
+.list .list-link:hover,
+.list .list-link:focus {
+  color: #2196f3;
+}
+.list .list-link,
+.logo {
+  text-decoration: none;
+}
+.list-link {
+  color: inherit;
+}
