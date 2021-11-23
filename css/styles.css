@@ -7,8 +7,9 @@
   --primery-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
-  --primery-bg-color: #e5e5e5;
+  --primery-bg-color: #ffffff;
   --secondary-bg-color: #2f303a;
+  --third-bg-color: #e5e5e5;
   --color-address-studio: #000000;
   --color-button: #ffffff;
   --color-hero: #ffffff;
@@ -72,6 +73,10 @@ span.color-studio {
   display: flex;
   letter-spacing: 0.06em;
 }
+.instruments,
+.work {
+  background: #e5e5e5;
+}
 .list .list-title {
   color: #212121;
   font-style: normal;
@@ -93,6 +98,9 @@ span.color-studio {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+}
+.team {
+  background: #f5f4fa;
 }
 .team .title,
 .work .title {
