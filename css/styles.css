@@ -4,10 +4,21 @@
 /* цвет заголовка ГЕРОЯ, цвет адресса в футере и Studio в лого #000000 */
 
 :root {
+  --primery-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primery-bg-color: #e5e5e5;
+  --secondary-bg-color: #2f303a;
+  --color-address-studio: #000000;
+  --color-button: #ffffff;
+  --color-hero: #ffffff;
 }
 .page {
   color: #212121;
+  background-color: var(--primery-bg-color);
+  font-family: roboto, Arial, Helvetica, sans-serif;
 }
+/* header */
 .list {
   list-style: none;
 }
@@ -25,6 +36,111 @@ span.color-studio {
 .logo {
   text-decoration: none;
 }
-.list-link {
+.page .logo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+.list .list-link {
   color: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+}
+/* main */
+.hero .hero-title {
+  color: var(--color-hero);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero .button {
+  background-color: var(--accent-color);
+  color: var(--color-button);
+  width: 200px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  align-items: center;
+  display: flex;
+  letter-spacing: 0.06em;
+}
+.list .list-title {
+  color: #212121;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.hero {
+  background-color: var(--secondary-bg-color);
+  width: 1600px;
+}
+.list .list-text {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+.team .title,
+.work .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.list .list-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.list .profession {
+  color: var(--secondary-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.187px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+span.color-second {
+  color: #ffffff;
+}
+.adress .contacts {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.adress .contacts:hover,
+.adress .contacts:focus {
+  color: var(--accent-color);
+}
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+.adress .street {
+  color: var(--color-button);
+}
+.adress .street:hover {
+  color: var(--accent-color);
 }
