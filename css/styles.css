@@ -13,6 +13,8 @@
   --color-address-studio: #000000;
   --color-button: #ffffff;
   --color-hero: #ffffff;
+  --buttom-bg-color-potfolio: #f5f4fa;
+  --bg-card-portfolio: #ffffff;
 }
 .page {
   color: var(--primery-text-color);
@@ -73,7 +75,8 @@ span.color-studio {
   letter-spacing: 0.06em;
 }
 .instruments,
-.work {
+.work,
+.example-work {
   background: #e5e5e5;
 }
 .list .list-title {
@@ -113,6 +116,41 @@ span.color-studio {
   line-height: 1.187px;
   text-align: center;
 }
+/* Portfolio */
+.work-item .button {
+  color: var(--primery-text-color);
+  background-color: var(--buttom-bg-color-potfolio);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+}
+.work-item .button:hover,
+.work-item .button:focus {
+  background-color: var(--accent-color);
+  color: var(--color-button);
+}
+.examples .examples-link {
+  text-decoration: none;
+  color: var(--primery-text-color);
+}
+.examples-link .examples-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.examples {
+  background-color: var(--bg-card-portfolio);
+}
+.examples-link .examples-category {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+/* Footer */
 span.color-second {
   color: #ffffff;
 }
