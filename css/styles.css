@@ -15,9 +15,12 @@
   --color-hero: #ffffff;
 }
 .page {
-  color: #212121;
+  color: var(--primery-text-color);
   background-color: var(--primery-bg-color);
-  font-family: roboto, Arial, Helvetica, sans-serif;
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.714;
 }
 /* header */
 .list {
@@ -38,17 +41,15 @@ span.color-studio {
   text-decoration: none;
 }
 .page .logo {
-  font-style: normal;
-  font-weight: bold;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
-  letter-spacing: 0.03em;
 }
 .list .list-link {
   color: inherit;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.142;
+  line-height: 1.143;
   letter-spacing: 0.02em;
 }
 /* main */
@@ -57,6 +58,7 @@ span.color-studio {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -65,12 +67,9 @@ span.color-studio {
   color: var(--color-button);
   width: 200px;
   cursor: pointer;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  align-items: center;
-  display: flex;
   letter-spacing: 0.06em;
 }
 .instruments,
@@ -79,11 +78,8 @@ span.color-studio {
 }
 .list .list-title {
   color: #212121;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
+  font-weight: 700;
   line-height: 1.143;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .hero {
@@ -92,32 +88,23 @@ span.color-studio {
 }
 .list .list-text {
   color: var(--secondary-text-color);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
 }
 .team {
   background: #f5f4fa;
 }
 .team .title,
 .work .title {
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .list .list-name {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .list .profession {
   color: var(--secondary-text-color);
@@ -125,7 +112,6 @@ span.color-studio {
   font-size: 16px;
   line-height: 1.187px;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 span.color-second {
   color: #ffffff;
@@ -134,10 +120,7 @@ span.color-second {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  font-weight: 400;
 }
 .adress .contacts:hover,
 .adress .contacts:focus {
