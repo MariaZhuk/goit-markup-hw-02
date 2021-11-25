@@ -74,10 +74,11 @@ span.color-studio {
   line-height: 1.875;
   letter-spacing: 0.06em;
 }
+/* background color pages */
 .instruments,
 .work,
 .example-work {
-  background: #e5e5e5;
+  background: var(--primery-bg-color);
 }
 .list .list-title {
   color: #212121;
@@ -113,11 +114,11 @@ span.color-studio {
   color: var(--secondary-text-color);
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.187px;
+  line-height: 1.187;
   text-align: center;
 }
 /* Portfolio */
-.work-item .button {
+.list .button {
   color: var(--primery-text-color);
   background-color: var(--buttom-bg-color-potfolio);
   font-weight: 500;
@@ -126,12 +127,12 @@ span.color-studio {
   text-align: center;
   cursor: pointer;
 }
-.work-item .button:hover,
-.work-item .button:focus {
+.list .button:hover,
+.list .button:focus {
   background-color: var(--accent-color);
   color: var(--color-button);
 }
-.examples .examples-link {
+.list .examples-link {
   text-decoration: none;
   color: var(--primery-text-color);
 }
@@ -141,7 +142,7 @@ span.color-studio {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.examples {
+.list-examples {
   background-color: var(--bg-card-portfolio);
 }
 .examples-link .examples-category {
@@ -154,22 +155,22 @@ span.color-studio {
 span.color-second {
   color: #ffffff;
 }
-.adress .contacts {
+.list .contacts {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
 }
-.adress .contacts:hover,
-.adress .contacts:focus {
+.list .contacts:hover,
+.list .contacts:focus {
   color: var(--accent-color);
 }
 .footer {
   background-color: var(--secondary-bg-color);
 }
-.adress .street {
+.list .list-adress {
   color: var(--color-button);
 }
-.adress .street:hover {
+.list .list-adress:hover {
   color: var(--accent-color);
 }
