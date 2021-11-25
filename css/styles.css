@@ -151,6 +151,9 @@ span.color-studio {
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
+.list .active-page {
+  color: var(--accent-color);
+}
 /* Footer */
 span.color-second {
   color: #ffffff;
